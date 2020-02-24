@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<h1>Hello Azure!</h1>"
+    return "<h1>Published using Axure CI/CD pipeline</h1>"
